@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Church Cottage, Studland — A History</title>
+  <meta name="description" content="The story of Church Cottage, Manor Road, Studland, Dorset. A Grade II Listed thatched cottage spanning three centuries — from glebe lands to the Bankes estate, through collapse and rebirth.">
+  <meta property="og:title" content="Church Cottage, Studland — A History">
+  <meta property="og:description" content="A Dorset cottage. Three centuries of quiet history. Lost in 2022. Remembered here.">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="en_GB">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&amp;family=Inter:wght@300;400;500&amp;family=JetBrains+Mono:wght@300;400&amp;display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Reading Progress Bar -->
+  <div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <nav class="site-nav" id="siteNav" aria-label="Main navigation">
+    <span class="nav-title">Church Cottage</span>
+    <span class="nav-location">Studland, Dorset</span>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" id="hero">
+    <div class="hero-mist" id="heroMist" aria-hidden="true"></div>
+    <div class="hero-content">
+      <p class="hero-label">Manor Road, Studland, Dorset &middot; BH19 3AU</p>
+      <h1 class="hero-title">Church<br>Cottage</h1>
+      <p class="hero-subtitle">A Dorset cottage. Three centuries of quiet history.<br>Lost in 2022. Remembered here.</p>
+      <div class="hero-meta">
+        <span class="hero-meta-item">
+          <span class="meta-label">Grid Ref</span>
+          <span class="meta-value">SZ 0374 8260</span>
+        </span>
+        <span class="hero-meta-item">
+          <span class="meta-label">Listed</span>
+          <span class="meta-value">Grade II</span>
+        </span>
+        <span class="hero-meta-item">
+          <span class="meta-label">NHLE</span>
+          <span class="meta-value">1323433</span>
+        </span>
+      </div>
+    </div>
+    <div class="scroll-indicator" aria-hidden="true">
+      <span class="scroll-line"></span>
+    </div>
+    <!-- Hero SVG landscape -->
+    <div class="hero-landscape" aria-hidden="true">
+      <svg viewBox="0 0 1440 200" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,200 L0,140 Q120,100 240,120 Q360,145 480,110 Q540,95 600,105 Q720,130 840,90 Q960,50 1080,80 Q1200,110 1320,70 L1440,90 L1440,200 Z" fill="var(--purbeck-stone)" opacity="0.3"/>
+        <path d="M0,200 L0,160 Q180,130 360,150 Q540,170 720,140 Q900,110 1080,135 Q1260,160 1440,130 L1440,200 Z" fill="var(--purbeck-stone)" opacity="0.5"/>
+        <path d="M0,200 L0,175 Q200,155 400,170 Q600,185 800,165 Q1000,145 1200,165 Q1350,178 1440,170 L1440,200 Z" fill="var(--chalk-white)"/>
+      </svg>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section 1: The Setting -->
+    <section class="content-section" id="setting" aria-labelledby="setting-title">
+      <div class="section-marker" aria-hidden="true">
+        <span class="section-number">I</span>
+        <span class="section-rule"></span>
+      </div>
+      <div class="section-content">
+        <p class="section-label">The Setting</p>
+        <h2 class="section-title" id="setting-title">On the Edge of<br>England</h2>
+
+        <!-- SVG Map of Isle of Purbeck -->
+        <figure class="figure-wide" role="img" aria-label="Stylised map showing Studland's position on the Isle of Purbeck">
+          <div class="map-container">
+            <svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg" class="purbeck-map">
+              <!-- Sea -->
+              <rect width="800" height="400" fill="var(--sea-grey)" opacity="0.08"/>
+              <!-- Purbeck landmass -->
+              <path d="M80,180 Q120,160 180,170 Q220,175 260,165 Q300,150 340,155 Q380,160 420,150 L460,145 Q500,140 540,148 Q580,155 620,145 Q660,130 700,140 Q720,145 740,135 L760,140 Q770,160 760,180 Q740,200 720,210 Q700,220 680,225 Q640,235 600,240 Q560,250 520,260 Q480,265 440,255 Q400,245 360,250 Q320,260 280,255 Q240,248 200,250 Q160,255 120,245 Q90,235 80,220 Z" fill="var(--purbeck-stone)" stroke="var(--thatch-dark)" stroke-width="0.5"/>
+              <!-- Studland marker -->
+              <circle cx="720" cy="170" r="6" fill="var(--thatch-gold)" stroke="var(--ink)" stroke-width="1.5"/>
+              <line x1="720" y1="163" x2="720" y2="145" stroke="var(--ink)" stroke-width="1"/>
+              <text x="720" y="140" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="500" fill="var(--ink)">Studland</text>
+              <!-- Other labels -->
+              <text x="340" y="195" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="var(--slate-mid)" letter-spacing="3">ISLE OF PURBECK</text>
+              <text x="460" y="175" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="var(--slate-mid)">Corfe Castle</text>
+              <circle cx="460" cy="165" r="3" fill="var(--thatch-dark)" opacity="0.5"/>
+              <text x="580" y="170" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="var(--slate-mid)">Swanage</text>
+              <circle cx="580" cy="160" r="3" fill="var(--thatch-dark)" opacity="0.5"/>
+              <text x="200" y="195" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="var(--slate-mid)">Wareham</text>
+              <circle cx="200" cy="185" r="3" fill="var(--thatch-dark)" opacity="0.5"/>
+              <!-- Old Harry Rocks -->
+              <text x="758" y="158" text-anchor="start" font-family="JetBrains Mono, monospace" font-size="7" fill="var(--sea-grey)">Old Harry</text>
+              <circle cx="755" cy="148" r="2" fill="var(--sea-grey)"/>
+              <!-- Compass rose -->
+              <g transform="translate(120,320)">
+                <line x1="0" y1="-20" x2="0" y2="20" stroke="var(--thatch-dark)" stroke-width="0.75"/>
+                <line x1="-20" y1="0" x2="20" y2="0" stroke="var(--thatch-dark)" stroke-width="0.75"/>
+                <polygon points="0,-22 -4,-12 4,-12" fill="var(--thatch-dark)"/>
+                <text x="0" y="-28" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="8" fill="var(--thatch-dark)">N</text>
+              </g>
+              <!-- Scale bar -->
+              <line x1="600" y1="340" x2="700" y2="340" stroke="var(--thatch-dark)" stroke-width="1"/>
+              <line x1="600" y1="336" x2="600" y2="344" stroke="var(--thatch-dark)" stroke-width="1"/>
+              <line x1="700" y1="336" x2="700" y2="344" stroke="var(--thatch-dark)" stroke-width="1"/>
+              <text x="650" y="355" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="7" fill="var(--slate-mid)">5 miles approx.</text>
+              <!-- Jurassic Coast label -->
+              <text x="500" y="290" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="var(--sea-grey)" letter-spacing="4" transform="rotate(-5, 500, 290)">JURASSIC COAST</text>
+              <!-- Poole Harbour -->
+              <path d="M100,165 Q140,140 180,150 Q200,155 220,150 Q210,168 180,170 Q140,172 100,165 Z" fill="var(--sea-grey)" opacity="0.12"/>
+              <text x="160" y="160" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" fill="var(--sea-grey)">Poole Harbour</text>
+            </svg>
+          </div>
+          <figcaption>Studland sits at the eastern tip of the Isle of Purbeck, where the chalk downs meet the sea.</figcaption>
+        </figure>
+
+        <div class="prose">
+          <p class="lead">Studland is a village that feels like it exists at the edge of time. Tucked into the eastern tip of the Isle of Purbeck, where chalk downland tumbles into Studland Bay, it is a place shaped equally by geology and by solitude.</p>
+
+          <p>To the east, the great chalk headland of Handfast Point breaks apart into the sea stacks of Old Harry Rocks&thinsp;&mdash;&thinsp;the easternmost point of the Jurassic Coast UNESCO World Heritage Site, where 80-million-year-old Cretaceous chalk stands sentinel against the Channel. On a clear day, you can see the Needles on the Isle of Wight; the two formations were once joined, before the sea carved the Solent between them.</p>
+
+          <p>To the west, Studland Heath stretches inland&thinsp;&mdash;&thinsp;a rare lowland heath of European importance, home to all six native British reptile species. To the south, the ridge climbs toward Nine Barrow Down with its Bronze Age burial mounds. The village sits within both the Dorset Area of Outstanding Natural Beauty (now a National Landscape) and the Studland Conservation Area, a designation recognising its exceptional architectural and historic character.</p>
+
+          <p>Studland remained remarkably isolated until the twentieth century. There was no ferry across the harbour mouth to Sandbanks until 1926, and no proper road before the Ferry Road was built. The Bankes Estate owned more than 95% of the land and was resistant to development. The result is a village that retains an unusual integrity&thinsp;&mdash;&thinsp;a scatter of stone and thatch around a Norman church, largely unchanged in form for centuries.</p>
+        </div>
+
+        <!-- St Nicholas Church illustration -->
+        <figure class="figure-feature" role="img" aria-label="Illustration of St Nicholas Church, Studland">
+          <div class="church-illustration">
+            <svg viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg" class="church-svg">
+              <!-- Ground line -->
+              <line x1="0" y1="250" x2="600" y2="250" stroke="var(--thatch-dark)" stroke-width="0.5" stroke-dasharray="2,4"/>
+              <!-- Church body - nave -->
+              <rect x="180" y="160" width="200" height="90" fill="none" stroke="var(--ink)" stroke-width="1.2"/>
+              <!-- Tower -->
+              <rect x="290" y="100" width="60" height="150" fill="none" stroke="var(--ink)" stroke-width="1.2"/>
+              <!-- Tower roof -->
+              <polygon points="285,100 320,70 355,100" fill="none" stroke="var(--ink)" stroke-width="1.2"/>
+              <!-- Nave roof -->
+              <polygon points="175,160 280,120 290,160" fill="none" stroke="var(--ink)" stroke-width="1"/>
+              <!-- Chancel -->
+              <rect x="350" y="175" width="80" height="75" fill="none" stroke="var(--ink)" stroke-width="1.2"/>
+              <!-- Chancel roof -->
+              <polygon points="345,175 390,150 435,175" fill="none" stroke="var(--ink)" stroke-width="1"/>
+              <!-- Porch -->
+              <rect x="240" y="230" width="40" height="20" fill="none" stroke="var(--ink)" stroke-width="0.8"/>
+              <!-- Door -->
+              <path d="M255,250 L255,238 Q260,232 265,238 L265,250" fill="none" stroke="var(--ink)" stroke-width="0.8"/>
+              <!-- Windows - Norman arches -->
+              <path d="M210,200 L210,185 Q220,175 230,185 L230,200" fill="none" stroke="var(--ink)" stroke-width="0.8"/>
+              <path d="M365,210 L365,195 Q375,185 385,195 L385,210" fill="none" stroke="var(--ink)" stroke-width="0.8"/>
+              <!-- Tower windows -->
+              <path d="M308,115 L308,107 Q313,102 318,107 L318,115" fill="none" stroke="var(--ink)" stroke-width="0.8"/>
+              <path d="M308,145 L308,137 Q313,132 318,137 L318,145" fill="none" stroke="var(--ink)" stroke-width="0.8"/>
+              <!-- Graveyard elements -->
+              <rect x="140" y="240" width="8" height="12" rx="2" fill="none" stroke="var(--thatch-dark)" stroke-width="0.6"/>
+              <rect x="158" y="242" width="7" height="10" rx="2" fill="none" stroke="var(--thatch-dark)" stroke-width="0.6"/>
+              <rect x="450" y="240" width="8" height="12" rx="2" fill="none" stroke="var(--thatch-dark)" stroke-width="0.6"/>
+              <rect x="470" y="241" width="7" height="11" rx="2" fill="none" stroke="var(--thatch-dark)" stroke-width="0.6"/>
+              <!-- Label -->
+              <text x="300" y="280" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="var(--slate-mid)" letter-spacing="2">ST NICHOLAS CHURCH, STUDLAND</text>
+              <text x="300" y="293" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="7" fill="var(--sea-grey)">Norman, c.1100 &middot; Grade I Listed</text>
+            </svg>
+          </div>
+          <figcaption>St Nicholas Church &mdash; described by Pevsner as &ldquo;one of the most complete Norman village churches in England.&rdquo;</figcaption>
+        </figure>
+
+        <div class="prose">
+          <p>At the heart of the village stands St Nicholas Church, built in the early twelfth century on the foundations of an earlier Saxon church. Nikolaus Pevsner described it as &ldquo;one of the most complete Norman village churches in England.&rdquo; Its squat central tower, three-cell plan of nave, chancel and sanctuary, and beautifully carved Norman arches have survived largely unaltered for nine hundred years. The corbel table beneath the roofline carries grotesque and lascivious carvings&thinsp;&mdash;&thinsp;a sheela-na-gig, grinning faces, farm animals&thinsp;&mdash;&thinsp;that have watched over the village since the time of Henry I.</p>
+
+          <p>It was immediately beside this church, on Manor Road, that Church Cottage stood for three centuries. The two buildings shared more than proximity; they shared a history of ecclesiastical ownership, of chalk and stone, of patient endurance against the Dorset weather.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Origins -->
+    <section class="content-section section-alt" id="origins" aria-labelledby="origins-title">
+      <div class="section-marker" aria-hidden="true">
+        <span class="section-number">II</span>
+        <span class="section-rule"></span>
+      </div>
+      <div class="section-content">
+        <p class="section-label">Origins</p>
+        <h2 class="section-title" id="origins-title">The Rector&rsquo;s<br>Cottage</h2>
+
+        <div class="prose">
+          <p class="lead">The documentary record of Church Cottage is, as the archaeologists noted, &ldquo;not plentiful.&rdquo; But the building itself told its own story&thinsp;&mdash;&thinsp;in its walls, its timbers, and its relationship to the land.</p>
+
+          <p>The most compelling theory for the cottage&rsquo;s origin links it to the glebe lands of the Rector of Studland. In the English parish system, glebe land was an area of land assigned to support the parish priest. The word itself derives from the Latin <em>gleba</em>&thinsp;&mdash;&thinsp;a clod of earth, a piece of soil. Glebe could include fields, farms, mills, and houses. A cottage on glebe land beside the parish church would have served as a dwelling for a tenant or worker connected to the ecclesiastical estate.</p>
+        </div>
+
+        <blockquote class="historical-quote">
+          <p>&ldquo;It is possible the building was originally erected as a tenanted cottage within the glebe lands of the Rector of Studland.&rdquo;</p>
+          <cite>&mdash; Cotswold Archaeology, Level 4 Historic Building Recording, 2024</cite>
+        </blockquote>
+
+        <div class="prose">
+          <p>The Level 4 Historic Building Recording undertaken by Cotswold Archaeology identified the earliest phase of Church Cottage as a two-cell, asymmetric cottage, likely one-and-a-half storeys in height. It was constructed using local vernacular materials and methods: principally white chalk freestone, the soft Cretaceous limestone that underlies much of the Purbeck landscape.</p>
+
+          <p>Chalk freestone is a demanding material. Soft when first quarried, it hardens on exposure to air but remains vulnerable to weathering. It erodes readily when saturated, and so the builders of Church Cottage&thinsp;&mdash;&thinsp;like those across the chalk districts of Dorset&thinsp;&mdash;&thinsp;typically protected it with a coat of lime render and deep eaves of thatch. The Cotswold Archaeology report identified evidence that the vernacular builders demonstrated a clear &ldquo;awareness of chalk freestone&rsquo;s limitations&rdquo; in their construction methods.</p>
+
+          <p>Analysis of the roof trusses during the 2024 watching brief suggested the building may date to &ldquo;earlier in the 18th century than has previously been thought.&rdquo; Intriguingly, staggered purlin mortices indicated that the roof may originally have been covered in stone tiles before being re-thatched in reed&thinsp;&mdash;&thinsp;a material change that speaks to evolving local building traditions and, perhaps, economics.</p>
+        </div>
+
+        <!-- Construction detail illustration -->
+        <figure class="figure-wide" role="img" aria-label="Diagram showing chalk freestone wall construction">
+          <div class="construction-diagram">
+            <svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" class="construction-svg">
+              <!-- Title -->
+              <text x="350" y="25" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="var(--slate-mid)" letter-spacing="3">CONSTRUCTION IN CHALK FREESTONE</text>
+              <!-- Wall section -->
+              <g transform="translate(100,50)">
+                <!-- Stone blocks - irregular coursing -->
+                <rect x="0" y="0" width="180" height="220" fill="var(--chalk-white)" stroke="var(--thatch-dark)" stroke-width="1"/>
+                <!-- Coursing lines -->
+                <line x1="0" y1="35" x2="180" y2="35" stroke="var(--thatch-dark)" stroke-width="0.4"/>
+                <line x1="0" y1="65" x2="180" y2="65" stroke="var(--thatch-dark)" stroke-width="0.4"/>
+                <line x1="0" y1="100" x2="180" y2="100" stroke="var(--thatch-dark)" stroke-width="0.4"/>
+                <line x1="0" y1="130" x2="180" y2="130" stroke="var(--thatch-dark)" stroke-width="0.4"/>
+                <line x1="0" y1="165" x2="180" y2="165" stroke="var(--thatch-dark)" stroke-width="0.4"/>
+                <line x1="0" y1="195" x2="180" y2="195" stroke="var(--thatch-dark)" stroke-width="0.4"/>
+                <!-- Vertical joints -->
+                <line x1="70" y1="0" x2="70" y2="35" stroke="var(--thatch-dark)" stroke-width="0.3"/>
+                <line x1="130" y1="0" x2="130" y2="35" stroke="var(--thatch-dark)" stroke-width="0.3"/>
+                <line x1="50" y1="35" x2="50" y2="65" stroke="var(--thatch-dark)" stroke-width="0.3"/>
+                <line x1="110" y1="35" x2="110" y2="65" stroke="var(--thatch-dark)" stroke-width="0.3"/>
+                <line x1="160" y1="35" x2="160" y2="65" stroke="var(--thatch-dark)" stroke-width="0.3"/>
+                <line x1="80" y1="65" x2="80" y2="100" stroke="var(--thatch-dark)" stroke-width="0.3"/>
+                <line x1="140" y1="65" x2="140" y2="100" stroke="var(--thatch-dark)" stroke-width="0.3"/>
+                <line x1="40" y1="100" x2="40" y2="130" stroke="var(--thatch-dark)" stroke-width="0.3"/>
+                <line x1="100" y1="100" x2="100" y2="130" stroke="var(--thatch-dark)" stroke-width="0.3"/>
+                <line x1="155" y1="100" x2="155" y2="130" stroke="var(--thatch-dark)" stroke-width="0.3"/>
+                <line x1="60" y1="130" x2="60" y2="165" stroke="var(--thatch-dark)" stroke-width="0.3"/>
+                <line x1="120" y1="130" x2="120" y2="165" stroke="var(--thatch-dark)" stroke-width="0.3"/>
+                <line x1="45" y1="165" x2="45" y2="195" stroke="var(--thatch-dark)" stroke-width="0.3"/>
+                <line x1="95" y1="165" x2="95" y2="195" stroke="var(--thatch-dark)" stroke-width="0.3"/>
+                <line x1="150" y1="165" x2="150" y2="195" stroke="var(--thatch-dark)" stroke-width="0.3"/>
+                <line x1="75" y1="195" x2="75" y2="220" stroke="var(--thatch-dark)" stroke-width="0.3"/>
+                <line x1="135" y1="195" x2="135" y2="220" stroke="var(--thatch-dark)" stroke-width="0.3"/>
+                <!-- Render indication on left -->
+                <rect x="-12" y="0" width="12" height="220" fill="var(--purbeck-stone)" stroke="var(--thatch-dark)" stroke-width="0.5" opacity="0.7"/>
+              </g>
+              <!-- Annotations -->
+              <g font-family="JetBrains Mono, monospace" font-size="8" fill="var(--slate-mid)">
+                <!-- Lime render annotation -->
+                <line x1="85" y1="130" x2="60" y2="130" stroke="var(--thatch-dark)" stroke-width="0.5"/>
+                <line x1="60" y1="130" x2="60" y2="100" stroke="var(--thatch-dark)" stroke-width="0.5"/>
+                <text x="55" y="98" text-anchor="end">Lime render</text>
+                <text x="55" y="108" text-anchor="end" font-size="7" fill="var(--sea-grey)">protective coating</text>
+                <!-- Chalk freestone annotation -->
+                <line x1="285" y1="80" x2="340" y2="80" stroke="var(--thatch-dark)" stroke-width="0.5"/>
+                <text x="345" y="78" text-anchor="start">Chalk freestone</text>
+                <text x="345" y="88" text-anchor="start" font-size="7" fill="var(--sea-grey)">locally quarried blocks</text>
+                <!-- Lime mortar annotation -->
+                <line x1="285" y1="150" x2="340" y2="150" stroke="var(--thatch-dark)" stroke-width="0.5"/>
+                <text x="345" y="148" text-anchor="start">Lime mortar beds</text>
+                <text x="345" y="158" text-anchor="start" font-size="7" fill="var(--sea-grey)">irregular coursing</text>
+                <!-- Rubble core -->
+                <line x1="285" y1="210" x2="340" y2="210" stroke="var(--thatch-dark)" stroke-width="0.5"/>
+                <text x="345" y="208" text-anchor="start">Rubble core</text>
+                <text x="345" y="218" text-anchor="start" font-size="7" fill="var(--sea-grey)">chalk &amp; flint fragments</text>
+              </g>
+            </svg>
+          </div>
+          <figcaption>Typical chalk freestone wall construction in the Purbeck vernacular tradition. Soft chalk blocks, protected by lime render, laid in irregular courses with lime mortar.</figcaption>
+        </figure>
+
+        <div class="prose">
+          <p>The Dorset Heritage Explorer records Church Cottage as an &ldquo;eighteenth century cottage with plastered cob walls, half-hipped thatched roof, one brick end stack and one near centre.&rdquo; The Royal Commission on Historical Monuments included it in their 1970 inventory of Dorset&rsquo;s historical monuments&thinsp;&mdash;&thinsp;a measure of its significance even then.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Evolution -->
+    <section class="content-section" id="evolution" aria-labelledby="evolution-title">
+      <div class="section-marker" aria-hidden="true">
+        <span class="section-number">III</span>
+        <span class="section-rule"></span>
+      </div>
+      <div class="section-content">
+        <p class="section-label">Evolution</p>
+        <h2 class="section-title" id="evolution-title">Three Phases,<br>Three Centuries</h2>
+
+        <!-- Building phases diagram -->
+        <figure class="figure-wide" role="img" aria-label="Diagram showing the three phases of Church Cottage's evolution">
+          <div class="phases-diagram">
+            <svg viewBox="0 0 800 350" xmlns="http://www.w3.org/2000/svg" class="phases-svg">
+              <text x="400" y="25" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="var(--slate-mid)" letter-spacing="3">BUILDING PHASES</text>
+              <!-- Phase 1 -->
+              <g transform="translate(50,60)">
+                <text x="90" y="0" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="8" fill="var(--thatch-gold)" letter-spacing="2">PHASE ONE</text>
+                <text x="90" y="14" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="7" fill="var(--slate-mid)">Early C18</text>
+                <!-- Cottage outline -->
+                <rect x="20" y="80" width="140" height="90" fill="var(--thatch-gold)" opacity="0.15" stroke="var(--thatch-gold)" stroke-width="1.5"/>
+                <!-- Roof -->
+                <polygon points="10,80 90,40 170,80" fill="none" stroke="var(--thatch-gold)" stroke-width="1.5"/>
+                <!-- Half hip indicators -->
+                <line x1="10" y1="80" x2="30" y2="60" stroke="var(--thatch-gold)" stroke-width="1"/>
+                <line x1="170" y1="80" x2="150" y2="60" stroke="var(--thatch-gold)" stroke-width="1"/>
+                <!-- Chimney -->
+                <rect x="125" y="38" width="15" height="30" fill="none" stroke="var(--thatch-gold)" stroke-width="1"/>
+                <!-- Door -->
+                <rect x="75" y="130" width="25" height="40" fill="none" stroke="var(--thatch-gold)" stroke-width="0.8"/>
+                <!-- Windows -->
+                <rect x="35" y="105" width="20" height="25" fill="none" stroke="var(--thatch-gold)" stroke-width="0.8"/>
+                <rect x="125" y="105" width="20" height="25" fill="none" stroke="var(--thatch-gold)" stroke-width="0.8"/>
+                <!-- Label -->
+                <text x="90" y="195" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="var(--slate-mid)">Two-cell asymmetric plan</text>
+                <text x="90" y="207" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="var(--slate-mid)">Chalk freestone walls</text>
+                <text x="90" y="219" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="var(--slate-mid)">Inglenook with bread oven</text>
+              </g>
+              <!-- Phase 2 -->
+              <g transform="translate(290,60)">
+                <text x="110" y="0" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="8" fill="var(--sea-grey)" letter-spacing="2">PHASE TWO</text>
+                <text x="110" y="14" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="7" fill="var(--slate-mid)">Post 1871</text>
+                <!-- Original -->
+                <rect x="20" y="80" width="140" height="90" fill="var(--thatch-gold)" opacity="0.1" stroke="var(--thatch-dark)" stroke-width="0.5" stroke-dasharray="3,3"/>
+                <polygon points="10,80 90,40 170,80" fill="none" stroke="var(--thatch-dark)" stroke-width="0.5" stroke-dasharray="3,3"/>
+                <!-- Extension -->
+                <rect x="160" y="80" width="60" height="90" fill="var(--sea-grey)" opacity="0.15" stroke="var(--sea-grey)" stroke-width="1.5"/>
+                <polygon points="155,80 190,55 225,80" fill="none" stroke="var(--sea-grey)" stroke-width="1.5"/>
+                <!-- Arrow -->
+                <line x1="155" y1="125" x2="165" y2="125" stroke="var(--sea-grey)" stroke-width="1"/>
+                <polygon points="165,122 172,125 165,128" fill="var(--sea-grey)"/>
+                <!-- Label -->
+                <text x="110" y="195" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="var(--slate-mid)">Northern extension by one bay</text>
+                <text x="110" y="207" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="var(--slate-mid)">Possible informal subdivision</text>
+                <text x="110" y="219" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="var(--slate-mid)">into three dwellings</text>
+              </g>
+              <!-- Phase 3 -->
+              <g transform="translate(540,60)">
+                <text x="110" y="0" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="8" fill="var(--slate-mid)" letter-spacing="2">PHASE THREE</text>
+                <text x="110" y="14" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="7" fill="var(--slate-mid)">Late C20</text>
+                <!-- Original -->
+                <rect x="20" y="80" width="140" height="90" fill="var(--thatch-gold)" opacity="0.07" stroke="var(--thatch-dark)" stroke-width="0.5" stroke-dasharray="3,3"/>
+                <polygon points="10,80 90,40 170,80" fill="none" stroke="var(--thatch-dark)" stroke-width="0.5" stroke-dasharray="3,3"/>
+                <!-- Phase 2 -->
+                <rect x="160" y="80" width="60" height="90" fill="var(--sea-grey)" opacity="0.07" stroke="var(--thatch-dark)" stroke-width="0.5" stroke-dasharray="3,3"/>
+                <!-- Phase 3 - replacing lean-to -->
+                <rect x="160" y="80" width="60" height="90" fill="var(--slate-mid)" opacity="0.15" stroke="var(--slate-mid)" stroke-width="1.5"/>
+                <polygon points="155,80 190,55 225,80" fill="none" stroke="var(--slate-mid)" stroke-width="1.5"/>
+                <!-- Label -->
+                <text x="110" y="195" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="var(--slate-mid)">Further bay to north</text>
+                <text x="110" y="207" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="var(--slate-mid)">Replaced earlier lean-to</text>
+                <text x="110" y="219" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" fill="var(--slate-mid)">Modern materials</text>
+              </g>
+            </svg>
+          </div>
+          <figcaption>The three principal phases of Church Cottage&rsquo;s development, as identified by the Cotswold Archaeology Level 4 recording.</figcaption>
+        </figure>
+
+        <div class="prose">
+          <p class="lead">Buildings in Studland do not stand still. Like the chalk cliffs that frame the bay, they are shaped by time, by need, and by the slow accretion of human lives lived within them.</p>
+
+          <p>The Cotswold Archaeology team identified three principal phases of construction at Church Cottage. The first&thinsp;&mdash;&thinsp;dating to the early eighteenth century or perhaps earlier&thinsp;&mdash;&thinsp;was the original two-cell cottage, built of chalk freestone with an inglenook fireplace and bread oven. This was a working building, functional and warm, its thick walls and deep thatch designed to hold heat in winter and shed the driving rain that sweeps in from the Channel.</p>
+
+          <p>Around 1823, the building&rsquo;s story intersected with that of the Bankes family. The Right Honourable George Bankes, whose family seat was at Kingston Lacy near Wimborne Minster, chose Studland as the site for an extraordinary seaside retreat. His &ldquo;eccentric marine villa&rdquo;&thinsp;&mdash;&thinsp;now known as the Manor House, and today operating as The Pig on the Beach hotel&thinsp;&mdash;&thinsp;was a fantasia of gabled dormers, glazed turrets, and small round towers, perhaps inspired by the notion that the site was that of the medieval Studland Castle.</p>
+
+          <p>When the Bankes family expanded their presence in Studland, Church Cottage was absorbed into the estate. It joined a landholding that would eventually encompass more than 95% of the village&thinsp;&mdash;&thinsp;a concentration of ownership that preserved Studland&rsquo;s rural character through the centuries of development that transformed much of the Dorset coast.</p>
+
+          <p>The second phase of construction, identified as occurring after 1871, saw the cottage extended by one bay to the north. Census records and other evidence suggest the building may have been informally subdivided into as many as three separate dwellings during this period&thinsp;&mdash;&thinsp;a common pattern in estate cottages, where growing families and changing agricultural economies drove internal reorganisation.</p>
+        </div>
+
+        <!-- Cottage illustration -->
+        <figure class="figure-feature" role="img" aria-label="Elevation drawing of Church Cottage showing its characteristic form">
+          <div class="cottage-illustration">
+            <svg viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" class="cottage-svg">
+              <!-- Ground -->
+              <line x1="60" y1="310" x2="640" y2="310" stroke="var(--thatch-dark)" stroke-width="0.5"/>
+              <!-- Main cottage body -->
+              <rect x="120" y="190" width="320" height="120" fill="none" stroke="var(--ink)" stroke-width="1.2"/>
+              <!-- Thatch roof with half hips -->
+              <path d="M100,190 L110,190 L120,190 L280,110 L440,190 L450,190 L460,190" fill="none" stroke="var(--ink)" stroke-width="1.2"/>
+              <!-- Half hip - left -->
+              <path d="M100,190 L150,155" fill="none" stroke="var(--ink)" stroke-width="1"/>
+              <!-- Half hip - right -->
+              <path d="M460,190 L410,155" fill="none" stroke="var(--ink)" stroke-width="1"/>
+              <!-- Thatch texture lines -->
+              <path d="M130,185 Q280,108 430,185" fill="none" stroke="var(--thatch-dark)" stroke-width="0.3" stroke-dasharray="4,3"/>
+              <path d="M140,180 Q280,105 420,180" fill="none" stroke="var(--thatch-dark)" stroke-width="0.3" stroke-dasharray="4,3"/>
+              <path d="M155,175 Q280,102 405,175" fill="none" stroke="var(--thatch-dark)" stroke-width="0.3" stroke-dasharray="4,3"/>
+              <!-- Chimney 1 - near centre -->
+              <rect x="260" y="100" width="20" height="40" fill="none" stroke="var(--ink)" stroke-width="1"/>
+              <line x1="258" y1="100" x2="282" y2="100" stroke="var(--ink)" stroke-width="1.2"/>
+              <!-- Chimney 2 - end stack -->
+              <rect x="415" y="115" width="18" height="55" fill="none" stroke="var(--ink)" stroke-width="1"/>
+              <line x1="413" y1="115" x2="435" y2="115" stroke="var(--ink)" stroke-width="1.2"/>
+              <!-- Front door with porch -->
+              <rect x="250" y="265" width="35" height="45" fill="none" stroke="var(--ink)" stroke-width="1"/>
+              <path d="M245,265 L267,250 L290,265" fill="none" stroke="var(--ink)" stroke-width="0.8"/>
+              <!-- Windows -->
+              <rect x="155" y="225" width="30" height="40" fill="none" stroke="var(--ink)" stroke-width="0.8"/>
+              <line x1="170" y1="225" x2="170" y2="265" stroke="var(--ink)" stroke-width="0.5"/>
+              <line x1="155" y1="245" x2="185" y2="245" stroke="var(--ink)" stroke-width="0.5"/>
+              <rect x="340" y="225" width="30" height="40" fill="none" stroke="var(--ink)" stroke-width="0.8"/>
+              <line x1="355" y1="225" x2="355" y2="265" stroke="var(--ink)" stroke-width="0.5"/>
+              <line x1="340" y1="245" x2="370" y2="245" stroke="var(--ink)" stroke-width="0.5"/>
+              <rect x="390" y="225" width="30" height="40" fill="none" stroke="var(--ink)" stroke-width="0.8"/>
+              <line x1="405" y1="225" x2="405" y2="265" stroke="var(--ink)" stroke-width="0.5"/>
+              <line x1="390" y1="245" x2="420" y2="245" stroke="var(--ink)" stroke-width="0.5"/>
+              <!-- First floor windows -->
+              <rect x="170" y="195" width="22" height="20" fill="none" stroke="var(--ink)" stroke-width="0.6"/>
+              <rect x="350" y="195" width="22" height="20" fill="none" stroke="var(--ink)" stroke-width="0.6"/>
+              <!-- Garden wall -->
+              <path d="M120,310 L120,325 Q200,340 280,325 L280,310" fill="none" stroke="var(--thatch-dark)" stroke-width="0.6"/>
+              <!-- Garden gate -->
+              <line x1="195" y1="310" x2="195" y2="330" stroke="var(--thatch-dark)" stroke-width="0.6"/>
+              <line x1="205" y1="310" x2="205" y2="330" stroke="var(--thatch-dark)" stroke-width="0.6"/>
+              <!-- Labels -->
+              <text x="280" y="355" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="var(--slate-mid)" letter-spacing="2">CHURCH COTTAGE, STUDLAND</text>
+              <text x="280" y="370" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="7" fill="var(--sea-grey)">Front (south-east) elevation &middot; indicative</text>
+              <!-- Annotations -->
+              <g font-family="JetBrains Mono, monospace" font-size="7" fill="var(--sea-grey)">
+                <line x1="90" y1="150" x2="90" y2="190" stroke="var(--sea-grey)" stroke-width="0.4"/>
+                <text x="85" y="175" text-anchor="end" transform="rotate(-90, 85, 175)">half hip</text>
+                <line x1="470" y1="150" x2="470" y2="190" stroke="var(--sea-grey)" stroke-width="0.4"/>
+                <text x="478" y="175" text-anchor="start" transform="rotate(90, 478, 175)">half hip</text>
+              </g>
+            </svg>
+          </div>
+          <figcaption>Indicative elevation of Church Cottage showing its characteristic reed-thatched roof with half hips, central and end chimney stacks, and front porch.</figcaption>
+        </figure>
+
+        <div class="prose">
+          <p>The distinctive architectural character of Church Cottage was shaped by its materials and setting. The reed-thatched roof with half hips is a signature of the Purbeck vernacular&thinsp;&mdash;&thinsp;the half hip being a gentle slope at the gable end where the thatch wraps partway down, rather than terminating at a full gable. This detail is both practical (reducing wind exposure on the exposed Dorset coast) and beautiful, giving the roofline a softness that is characteristic of the region.</p>
+
+          <p>Inside, the inglenook fireplace with its bread oven spoke of centuries of domestic life. The beamed ceilings, the thick stone walls, the small-paned windows&thinsp;&mdash;&thinsp;all were elements of a building designed for shelter, for warmth, for the quiet rhythms of a rural existence in the lee of a Norman church.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: The 20th Century -->
+    <section class="content-section section-alt" id="twentieth-century" aria-labelledby="century-title">
+      <div class="section-marker" aria-hidden="true">
+        <span class="section-number">IV</span>
+        <span class="section-rule"></span>
+      </div>
+      <div class="section-content">
+        <p class="section-label">The Twentieth Century</p>
+        <h2 class="section-title" id="century-title">War, Change &amp;<br>Private Hands</h2>
+
+        <div class="prose">
+          <p class="lead">The twentieth century brought upheaval to Studland that the village&rsquo;s previous centuries of quiet could scarcely have imagined.</p>
+
+          <p>In 1981, Ralph Bankes bequeathed the entire estate&thinsp;&mdash;&thinsp;Kingston Lacy, Corfe Castle, and all of Studland&thinsp;&mdash;&thinsp;to the National Trust. It was one of the largest single bequests in the Trust&rsquo;s history. But Church Cottage had already left the Bankes estate by then; at some point during the early twentieth century, it had returned to the ownership of the Diocese of Salisbury, the ecclesiastical body that had overseen the glebe lands centuries earlier.</p>
+
+          <p>Before the change in ownership reshaped the village, however, Studland played an extraordinary role in the most consequential military operation in modern history.</p>
+        </div>
+
+        <div class="aside-box">
+          <h3 class="aside-title">Studland &amp; D-Day</h3>
+          <p>From autumn 1943, Studland Bay became an amphibious assault training area for the D-Day landings. The beach&rsquo;s profile closely matched the Normandy coastline, making it ideal for rehearsals.</p>
+          <p>On <time datetime="1944-04-18">18 April 1944</time>, Winston Churchill, King George VI, Eisenhower, Montgomery, and Mountbatten gathered in the concrete observation bunker at Fort Henry&thinsp;&mdash;&thinsp;just along the coast from Church Cottage&thinsp;&mdash;&thinsp;to observe Exercise Smash, the largest live ammunition exercise of the entire war. Troops trained with live fire and amphibious DD (Duplex Drive) tanks. Tragically, six men lost their lives when tanks sank during a practice run on <time datetime="1944-04-04">4 April 1944</time>.</p>
+          <p>To this day, live ammunition from the D-Day rehearsals is still found on Studland Beach.</p>
+        </div>
+
+        <div class="prose">
+          <p>The Diocese of Salisbury held Church Cottage through much of the twentieth century. Then, in <time datetime="1996">1996</time>, the cottage passed into private ownership for the first time in its history&thinsp;&mdash;&thinsp;no longer part of a glebe, no longer part of an aristocratic estate, no longer held by the Church.</p>
+
+          <p>The third and final phase of construction identified by Cotswold Archaeology dates to this period. A further bay was added to the north, replacing an earlier lean-to structure that may have been part of the second phase. This late twentieth-century extension used modern materials and methods, a clear departure from the chalk freestone and vernacular techniques of the original building.</p>
+
+          <p>Yet the essential character of Church Cottage endured. It remained a thatched cottage of chalk and stone, sitting in its elevated position beside St Nicholas Church, looking out across Studland Bay to the Isle of Wight. Its Grade II listing, first made in its current form, recognised its significance as part of Studland&rsquo;s built heritage&thinsp;&mdash;&thinsp;a building that contributed to the special character of the Conservation Area and the village&rsquo;s sense of place.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: The Collapse -->
+    <section class="content-section" id="collapse" aria-labelledby="collapse-title">
+      <div class="section-marker" aria-hidden="true">
+        <span class="section-number">V</span>
+        <span class="section-rule"></span>
+      </div>
+      <div class="section-content">
+        <p class="section-label">The Collapse</p>
+        <h2 class="section-title" id="collapse-title">2022</h2>
+
+        <div class="prose">
+          <p class="lead">In 2022, the north-west facing elevation of Church Cottage suffered an uncontrolled partial collapse. Three centuries of quiet endurance ended in a sudden failure of the chalk freestone wall.</p>
+
+          <p>The collapse was not entirely unexpected in a building of this age and construction. Chalk freestone, for all its local abundance and workability, is inherently vulnerable. When saturated by prolonged rain or groundwater ingress, it softens and loses structural integrity. Over centuries, cycles of wetting and drying, freezing and thawing, can progressively weaken a wall until a critical point is reached.</p>
+
+          <p>What followed the collapse was a protracted and sensitive series of discussions involving multiple parties: Dorset Council planners, Conservation Officers, Historic England (the body responsible for the listed building), Building Control, and SPAB&thinsp;&mdash;&thinsp;the Society for the Protection of Ancient Buildings, founded by William Morris in 1877 to champion the sympathetic treatment of historic structures.</p>
+        </div>
+
+        <blockquote class="historical-quote">
+          <p>&ldquo;Following a collapse of the external wall in 2022, extensive discussions between Dorset Council Planners, Conservation Officers, Historic England, Building Control and SPAB, it was agreed that the building would need to be demolished and a sensitive replacement designed.&rdquo;</p>
+          <cite>&mdash; Western Design Architects</cite>
+        </blockquote>
+
+        <div class="prose">
+          <p>The conclusion, reached after careful structural assessment, was that repair was not economically viable. The building&thinsp;&mdash;&thinsp;a Grade II Listed cottage that had stood since the early eighteenth century, that had been home to rector&rsquo;s tenants, estate workers, and private owners across three hundred years&thinsp;&mdash;&thinsp;would need to be demolished.</p>
+
+          <p>The loss of any listed building is significant. England&rsquo;s listed building register exists precisely to protect structures of special architectural or historic interest. To demolish one requires exceptional circumstances. But the collapse of Church Cottage presented exactly those circumstances: a building that could no longer safely stand, whose fabric had reached the end of its structural life.</p>
+
+          <p>The decision was made: demolish, but record everything first. And then design a sensitive replacement that would honour what had been lost.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: Recording & Remembering -->
+    <section class="content-section section-alt" id="recording" aria-labelledby="recording-title">
+      <div class="section-marker" aria-hidden="true">
+        <span class="section-number">VI</span>
+        <span class="section-rule"></span>
+      </div>
+      <div class="section-content">
+        <p class="section-label">Recording &amp; Remembering</p>
+        <h2 class="section-title" id="recording-title">Preserving by<br>Record</h2>
+
+        <div class="prose">
+          <p class="lead">When a historic building cannot be saved, the discipline of archaeology offers a different kind of preservation: preservation by record. The building is lost, but its story is captured in meticulous detail for future generations.</p>
+
+          <p>Cotswold Archaeology, one of England&rsquo;s leading archaeological practices, was commissioned to undertake a Level 4 Historic Building Recording&thinsp;&mdash;&thinsp;the most comprehensive level of building recording defined by Historic England. Level 4 provides an analytical record that seeks to understand the building&rsquo;s development, construction techniques, and significance in full detail.</p>
+
+          <p>The recording was conducted in two stages. Stage 1, carried out in <time datetime="2023">2023</time>, documented the standing building before demolition&thinsp;&mdash;&thinsp;its structure, materials, spatial organisation, and architectural details. Stage 2 comprised a watching brief during the demolition itself in <time datetime="2024-01">January 2024</time>, allowing archaeologists to examine structural elements that were only revealed as the building came apart.</p>
+        </div>
+
+        <div class="detail-grid">
+          <div class="detail-card">
+            <h3 class="detail-title">Roof Trusses</h3>
+            <p>Historic roof trusses were extracted and recorded analytically and photographically during demolition. Their form suggested dating &ldquo;earlier in the 18th century than has previously been thought.&rdquo;</p>
+          </div>
+          <div class="detail-card">
+            <h3 class="detail-title">Purlin Mortices</h3>
+            <p>Staggered purlin mortices indicated the building may once have had stone tile roofing&thinsp;&mdash;&thinsp;a heavier covering that preceded the reed thatch, speaking to changes in local building tradition.</p>
+          </div>
+          <div class="detail-card">
+            <h3 class="detail-title">Wall Construction</h3>
+            <p>The vernacular builders&rsquo; awareness of chalk freestone&rsquo;s limitations was evident in their construction methods&thinsp;&mdash;&thinsp;thicker walls, protective render, and careful selection of stone.</p>
+          </div>
+          <div class="detail-card">
+            <h3 class="detail-title">Building Phases</h3>
+            <p>Three clear phases of construction were identified, from the original 18th-century two-cell cottage through northward expansion to the late 20th-century extension.</p>
+          </div>
+        </div>
+
+        <div class="prose">
+          <p>The completed report&thinsp;&mdash;&thinsp;authored by James Barnes and Sacha Hunter of Cotswold Archaeology (Ref: CR1246, published May 2024)&thinsp;&mdash;&thinsp;now resides in the Dorset Heritage Explorer as source SDO21131, and in the national Archaeology Data Service. It is the definitive record of a building that no longer exists; a detailed account of construction techniques, materials, and spatial organisation that contributes to the wider understanding of vernacular building in the Purbeck chalk districts.</p>
+
+          <p>In the language of heritage management, Church Cottage has been &ldquo;preserved by record.&rdquo; The building is gone, but its story is not.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 7: Rebirth -->
+    <section class="content-section" id="rebirth" aria-labelledby="rebirth-title">
+      <div class="section-marker" aria-hidden="true">
+        <span class="section-number">VII</span>
+        <span class="section-rule"></span>
+      </div>
+      <div class="section-content">
+        <p class="section-label">Rebirth</p>
+        <h2 class="section-title" id="rebirth-title">A Sensitive<br>Replacement</h2>
+
+        <div class="prose">
+          <p class="lead">Western Design Architects were appointed to design a replacement for Church Cottage&thinsp;&mdash;&thinsp;a task that demanded sensitivity, imagination, and a deep understanding of what the original building meant to its setting.</p>
+
+          <p>The design philosophy was clear from the outset: the new cottage would echo the original in form, mass, and height, actively preserving the street scene and respecting the special character of the Studland Conservation Area. The late twentieth-century northern extension&thinsp;&mdash;&thinsp;Phase Three in the archaeological record&thinsp;&mdash;&thinsp;was removed, allowing the replacement to better represent the original historic structure.</p>
+        </div>
+
+        <!-- New design illustration -->
+        <figure class="figure-wide" role="img" aria-label="Diagram showing the replacement design concept">
+          <div class="design-diagram">
+            <svg viewBox="0 0 800 360" xmlns="http://www.w3.org/2000/svg" class="design-svg">
+              <text x="400" y="25" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="9" fill="var(--slate-mid)" letter-spacing="3">REPLACEMENT DESIGN CONCEPT</text>
+              <!-- Traditional cottage form -->
+              <g transform="translate(60,50)">
+                <text x="150" y="0" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="8" fill="var(--thatch-gold)" letter-spacing="2">TRADITIONAL COTTAGE</text>
+                <text x="150" y="14" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" fill="var(--slate-mid)">Echoing original form</text>
+                <!-- Main body -->
+                <rect x="30" y="90" width="240" height="120" fill="var(--thatch-gold)" opacity="0.08" stroke="var(--ink)" stroke-width="1"/>
+                <!-- Thatch roof -->
+                <path d="M20,90 L150,30 L280,90" fill="none" stroke="var(--ink)" stroke-width="1.2"/>
+                <!-- Half hips -->
+                <line x1="20" y1="90" x2="55" y2="60" stroke="var(--ink)" stroke-width="0.8"/>
+                <line x1="280" y1="90" x2="245" y2="60" stroke="var(--ink)" stroke-width="0.8"/>
+                <!-- Thatch texture -->
+                <path d="M40,86 Q150,30 260,86" fill="none" stroke="var(--thatch-dark)" stroke-width="0.3" stroke-dasharray="3,2"/>
+                <path d="M55,80 Q150,28 245,80" fill="none" stroke="var(--thatch-dark)" stroke-width="0.3" stroke-dasharray="3,2"/>
+                <!-- Chimney -->
+                <rect x="200" y="28" width="18" height="40" fill="none" stroke="var(--ink)" stroke-width="0.8"/>
+                <!-- Porch -->
+                <rect x="125" y="175" width="40" height="35" fill="none" stroke="var(--ink)" stroke-width="0.8"/>
+                <path d="M120,175 L145,160 L170,175" fill="none" stroke="var(--ink)" stroke-width="0.8"/>
+                <!-- Windows - timber sash -->
+                <rect x="55" y="120" width="30" height="45" fill="none" stroke="var(--ink)" stroke-width="0.6"/>
+                <rect x="210" y="120" width="30" height="45" fill="none" stroke="var(--ink)" stroke-width="0.6"/>
+                <!-- Material labels -->
+                <text x="150" y="245" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="7" fill="var(--sea-grey)">Lime render &middot; Reed thatch</text>
+                <text x="150" y="257" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="7" fill="var(--sea-grey)">Timber sash windows</text>
+              </g>
+              <!-- Connection -->
+              <g transform="translate(370, 140)">
+                <line x1="0" y1="0" x2="50" y2="0" stroke="var(--thatch-dark)" stroke-width="0.5" stroke-dasharray="4,4"/>
+              </g>
+              <!-- Contemporary extension -->
+              <g transform="translate(430,50)">
+                <text x="150" y="0" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="8" fill="var(--sea-grey)" letter-spacing="2">CONTEMPORARY EXTENSION</text>
+                <text x="150" y="14" text-anchor="middle" font-family="Inter, sans-serif" font-size="7" fill="var(--slate-mid)">Clear delineation from cottage</text>
+                <!-- Extension body -->
+                <rect x="30" y="100" width="240" height="110" fill="var(--sea-grey)" opacity="0.08" stroke="var(--ink)" stroke-width="1"/>
+                <!-- Flat/sedum roof -->
+                <rect x="25" y="90" width="250" height="10" fill="var(--sea-grey)" opacity="0.15" stroke="var(--ink)" stroke-width="0.8"/>
+                <!-- Timber cladding lines -->
+                <line x1="30" y1="115" x2="270" y2="115" stroke="var(--thatch-dark)" stroke-width="0.2"/>
+                <line x1="30" y1="125" x2="270" y2="125" stroke="var(--thatch-dark)" stroke-width="0.2"/>
+                <line x1="30" y1="135" x2="270" y2="135" stroke="var(--thatch-dark)" stroke-width="0.2"/>
+                <line x1="30" y1="145" x2="270" y2="145" stroke="var(--thatch-dark)" stroke-width="0.2"/>
+                <line x1="30" y1="155" x2="270" y2="155" stroke="var(--thatch-dark)" stroke-width="0.2"/>
+                <line x1="30" y1="165" x2="270" y2="165" stroke="var(--thatch-dark)" stroke-width="0.2"/>
+                <line x1="30" y1="175" x2="270" y2="175" stroke="var(--thatch-dark)" stroke-width="0.2"/>
+                <line x1="30" y1="185" x2="270" y2="185" stroke="var(--thatch-dark)" stroke-width="0.2"/>
+                <line x1="30" y1="195" x2="270" y2="195" stroke="var(--thatch-dark)" stroke-width="0.2"/>
+                <!-- Large glazing -->
+                <rect x="60" y="120" width="80" height="70" fill="var(--sea-grey)" opacity="0.05" stroke="var(--ink)" stroke-width="0.6"/>
+                <rect x="160" y="120" width="80" height="70" fill="var(--sea-grey)" opacity="0.05" stroke="var(--ink)" stroke-width="0.6"/>
+                <!-- Material labels -->
+                <text x="150" y="235" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="7" fill="var(--sea-grey)">Timber cladding &middot; Sedum roof</text>
+                <text x="150" y="247" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="7" fill="var(--sea-grey)">Triple glazing</text>
+              </g>
+            </svg>
+          </div>
+          <figcaption>The replacement design pairs a traditional thatched cottage&thinsp;&mdash;&thinsp;echoing the original in form&thinsp;&mdash;&thinsp;with a clearly contemporary rear extension.</figcaption>
+        </figure>
+
+        <div class="prose">
+          <p>The new cottage occupies the existing footprint and retains the existing building line. The hipped gable ends, chimney location, and front porch have all been retained to replicate the existing arrangement. The principal materials&thinsp;&mdash;&thinsp;lime render and reed thatch&thinsp;&mdash;&thinsp;continue the local building tradition. Timber sash windows maintain the existing proportions with improved alignment.</p>
+
+          <p>Where the design departs from the original is at the rear, with a single-storey contemporary extension. This is deliberately different in character: timber-clad with a sedum (green) roof, it creates a clear delineation between the traditional cottage form and the new. The materials complement the setting, drawing inspiration from the coastal and natural landscape&thinsp;&mdash;&thinsp;the timber echoing the driftwood palette of the beach, the sedum a nod to the heathland that borders the village.</p>
+        </div>
+
+        <div class="sustainability-grid">
+          <div class="sustain-item">
+            <svg class="sustain-icon" viewBox="0 0 40 40" aria-hidden="true">
+              <circle cx="20" cy="20" r="18" fill="none" stroke="var(--thatch-gold)" stroke-width="1"/>
+              <path d="M20,8 L20,32 M8,20 L32,20 M12,12 L28,28 M28,12 L12,28" stroke="var(--thatch-gold)" stroke-width="0.5"/>
+              <circle cx="20" cy="20" r="6" fill="none" stroke="var(--thatch-gold)" stroke-width="0.8"/>
+            </svg>
+            <h4>Ground Source Heat Pump</h4>
+            <p>Three boreholes draw stable warmth from the earth beneath&thinsp;&mdash;&thinsp;the same Purbeck geology that provided the original cottage&rsquo;s chalk freestone.</p>
+          </div>
+          <div class="sustain-item">
+            <svg class="sustain-icon" viewBox="0 0 40 40" aria-hidden="true">
+              <rect x="5" y="12" width="30" height="20" rx="1" fill="none" stroke="var(--thatch-gold)" stroke-width="1"/>
+              <line x1="5" y1="22" x2="35" y2="22" stroke="var(--thatch-gold)" stroke-width="0.5"/>
+              <line x1="15" y1="12" x2="15" y2="32" stroke="var(--thatch-gold)" stroke-width="0.5"/>
+              <line x1="25" y1="12" x2="25" y2="32" stroke="var(--thatch-gold)" stroke-width="0.5"/>
+              <path d="M20,5 L25,10 L15,10 Z" fill="var(--thatch-gold)" opacity="0.4"/>
+            </svg>
+            <h4>20 Solar Panels</h4>
+            <p>A photovoltaic array generates clean energy, discretely integrated into the design alongside the traditional thatch.</p>
+          </div>
+          <div class="sustain-item">
+            <svg class="sustain-icon" viewBox="0 0 40 40" aria-hidden="true">
+              <rect x="6" y="6" width="28" height="28" rx="2" fill="none" stroke="var(--thatch-gold)" stroke-width="1"/>
+              <rect x="10" y="10" width="20" height="20" rx="1" fill="none" stroke="var(--thatch-gold)" stroke-width="0.5"/>
+              <rect x="14" y="14" width="12" height="12" rx="0.5" fill="var(--thatch-gold)" opacity="0.1"/>
+            </svg>
+            <h4>Triple Glazing</h4>
+            <p>High-performance windows ensure thermal efficiency while maintaining the proportions and character of the original fenestration.</p>
+          </div>
+          <div class="sustain-item">
+            <svg class="sustain-icon" viewBox="0 0 40 40" aria-hidden="true">
+              <path d="M10,30 Q10,15 20,10 Q30,15 30,30" fill="none" stroke="var(--thatch-gold)" stroke-width="1"/>
+              <line x1="10" y1="30" x2="30" y2="30" stroke="var(--thatch-gold)" stroke-width="1"/>
+              <path d="M15,28 Q15,20 20,16 Q25,20 25,28" fill="none" stroke="var(--thatch-gold)" stroke-width="0.5"/>
+            </svg>
+            <h4>Salvaged Stone</h4>
+            <p>Chalk freestone salvaged from the demolition of the original cottage is reused in new terracing walls&thinsp;&mdash;&thinsp;the old building lives on in the landscape.</p>
+          </div>
+        </div>
+
+        <div class="prose">
+          <p>Western Design Architects noted that the planning process, despite the sensitivity of the project, was &ldquo;straightforward&rdquo;&thinsp;&mdash;&thinsp;a testament to the collaborative approach between all parties. The new building will be inspected on completion and delisted, its Grade II designation no longer applying to a structure that is newly built. But the architects expressed confidence that &ldquo;the cottage will live on in its new form for years to come.&rdquo;</p>
+
+          <p>It is a careful, considered piece of architecture: one that acknowledges loss while looking forward, that uses traditional materials alongside contemporary technology, and that ensures this particular spot on Manor Road&thinsp;&mdash;&thinsp;beside a Norman church, overlooking the bay&thinsp;&mdash;&thinsp;continues to be occupied by a building that belongs there.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 8: Timeline -->
+    <section class="content-section section-alt" id="timeline" aria-labelledby="timeline-title">
+      <div class="section-marker" aria-hidden="true">
+        <span class="section-number">VIII</span>
+        <span class="section-rule"></span>
+      </div>
+      <div class="section-content">
+        <p class="section-label">Timeline</p>
+        <h2 class="section-title" id="timeline-title">Key Dates</h2>
+
+        <div class="timeline" role="list" aria-label="Timeline of key dates in Church Cottage's history">
+          <div class="timeline-line" aria-hidden="true"></div>
+
+          <div class="timeline-item timeline-left" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <time class="timeline-date" datetime="1100">c. 1100</time>
+              <h3 class="timeline-event">St Nicholas Church Built</h3>
+              <p>The Norman church is constructed on the foundations of an earlier Saxon building, establishing the ecclesiastical heart of Studland.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item timeline-right" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <time class="timeline-date" datetime="1700">Early C18</time>
+              <h3 class="timeline-event">Church Cottage Constructed</h3>
+              <p>The original two-cell cottage is built in chalk freestone on the glebe lands of the Rector of Studland. Phase One: inglenook fireplace, bread oven, half-hipped thatch roof.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item timeline-left" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <time class="timeline-date" datetime="1823">c. 1823</time>
+              <h3 class="timeline-event">Bankes Estate Acquisition</h3>
+              <p>George Bankes builds his &ldquo;eccentric marine villa&rdquo; at Studland Manor. Church Cottage is absorbed into the Bankes estate, which owns 95% of the village.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item timeline-right" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <time class="timeline-date" datetime="1871">Post 1871</time>
+              <h3 class="timeline-event">First Extension</h3>
+              <p>Phase Two: the cottage is extended by one bay to the north. Possible informal subdivision into three dwellings during this period.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item timeline-left" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <time class="timeline-date" datetime="1944">1944</time>
+              <h3 class="timeline-event">D-Day Rehearsals</h3>
+              <p>Exercise Smash: the largest live ammunition exercise of the war takes place on Studland Beach, six weeks before D-Day. Churchill and Eisenhower observe from Fort Henry.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item timeline-right" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <time class="timeline-date" datetime="1970">1970</time>
+              <h3 class="timeline-event">RCHME Record</h3>
+              <p>Church Cottage is included in the Royal Commission on Historical Monuments&rsquo; Inventory of Dorset, Volume II (South East).</p>
+            </div>
+          </div>
+
+          <div class="timeline-item timeline-left" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <time class="timeline-date" datetime="1981">1981</time>
+              <h3 class="timeline-event">Bankes Bequest</h3>
+              <p>Ralph Bankes bequeaths the entire estate&thinsp;&mdash;&thinsp;Kingston Lacy, Corfe Castle, and Studland&thinsp;&mdash;&thinsp;to the National Trust.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item timeline-right" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <time class="timeline-date" datetime="1996">1996</time>
+              <h3 class="timeline-event">Private Ownership</h3>
+              <p>Church Cottage passes from the Diocese of Salisbury into private hands for the first time in its history.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item timeline-left" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <time class="timeline-date">Late C20</time>
+              <h3 class="timeline-event">Northern Extension</h3>
+              <p>Phase Three: a further bay is added to the north, replacing an earlier lean-to. Modern materials and methods are used.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item timeline-right" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <time class="timeline-date" datetime="2022">2022</time>
+              <h3 class="timeline-event">Wall Collapse</h3>
+              <p>The north-west facing elevation suffers an uncontrolled partial collapse. Structural assessment concludes repair is not economically viable.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item timeline-left" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <time class="timeline-date" datetime="2023">2023</time>
+              <h3 class="timeline-event">Level 4 Recording</h3>
+              <p>Cotswold Archaeology undertakes a comprehensive Level 4 Historic Building Recording&thinsp;&mdash;&thinsp;the most detailed level of building survey&thinsp;&mdash;&thinsp;before demolition.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item timeline-right" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <time class="timeline-date" datetime="2024-01">January 2024</time>
+              <h3 class="timeline-event">Demolition &amp; Watching Brief</h3>
+              <p>The cottage is carefully demolished under archaeological supervision. Roof trusses and structural elements are extracted and recorded. Historic stone is salvaged for reuse.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item timeline-left" role="listitem">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-content">
+              <time class="timeline-date" datetime="2024">2024&ndash;</time>
+              <h3 class="timeline-event">Replacement Under Construction</h3>
+              <p>Western Design Architects&rsquo; replacement cottage&thinsp;&mdash;&thinsp;lime render and thatch with contemporary timber extension&thinsp;&mdash;&thinsp;rises on the same footprint. Salvaged stone is reused in terracing walls.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 9: Sources -->
+    <section class="content-section" id="sources" aria-labelledby="sources-title">
+      <div class="section-marker" aria-hidden="true">
+        <span class="section-number">IX</span>
+        <span class="section-rule"></span>
+      </div>
+      <div class="section-content">
+        <p class="section-label">Sources &amp; Further Reading</p>
+        <h2 class="section-title" id="sources-title">References</h2>
+
+        <div class="sources-list">
+          <div class="source-category">
+            <h3>The Building</h3>
+            <ul>
+              <li>
+                <a href="https://historicengland.org.uk/listing/the-list/list-entry/1323433" target="_blank" rel="noopener noreferrer">Historic England &mdash; Church Cottage, Studland (List Entry 1323433)</a>
+                <span class="source-desc">Official listing description for the Grade II Listed Building.</span>
+              </li>
+              <li>
+                <a href="https://heritage.dorsetcouncil.gov.uk/Monument/MDO16978" target="_blank" rel="noopener noreferrer">Dorset Heritage Explorer &mdash; Church Cottage, Manor Road, Studland (MDO16978)</a>
+                <span class="source-desc">Heritage monument record with archaeological references.</span>
+              </li>
+              <li>
+                <a href="https://heritage.dorsetcouncil.gov.uk/Source/SDO21131/" target="_blank" rel="noopener noreferrer">Dorset Heritage Explorer &mdash; Level 4 Historic Building Recording (SDO21131)</a>
+                <span class="source-desc">Barnes, J. B. and Hunter, S. (2024). <em>Church Cottage Manor Road, Studland, Dorset: Level 4 Historic Building Recording.</em> Cotswold Archaeology, Cirencester. Ref: CR1246.</span>
+              </li>
+              <li>
+                <a href="https://archaeologydataservice.ac.uk/library/browse/issue.xhtml?recordId=1237934&amp;recordType=GreyLitSeries" target="_blank" rel="noopener noreferrer">Archaeology Data Service &mdash; Church Cottage Studland Recording</a>
+                <span class="source-desc">National repository for the Cotswold Archaeology report.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="source-category">
+            <h3>The Replacement</h3>
+            <ul>
+              <li>
+                <a href="https://www.westerndesignarchitects.com/our-projects/church-cottage/" target="_blank" rel="noopener noreferrer">Western Design Architects &mdash; Church Cottage Project Page</a>
+                <span class="source-desc">Full details of the replacement design, materials, and sustainability features.</span>
+              </li>
+              <li>
+                <a href="https://www.westerndesignarchitects.com/planning-approval-for-a-replacement-thatched-cottage-in-studland/" target="_blank" rel="noopener noreferrer">WDA &mdash; Planning Approval Announcement</a>
+                <span class="source-desc">Details of the planning process and consultation.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="source-category">
+            <h3>Studland &amp; Context</h3>
+            <ul>
+              <li>
+                <a href="https://historicengland.org.uk/listing/the-list/list-entry/1120271" target="_blank" rel="noopener noreferrer">Historic England &mdash; Parish Church of Saint Nicholas, Studland (Grade I)</a>
+                <span class="source-desc">Listing description for the Norman church adjacent to Church Cottage.</span>
+              </li>
+              <li>
+                <a href="https://www.dorsetcouncil.gov.uk/documents/35024/281165/Studland+Conservation+Area+Appraisal.pdf" target="_blank" rel="noopener noreferrer">Dorset Council &mdash; Studland Conservation Area Appraisal (2012)</a>
+                <span class="source-desc">Assessment of the area&rsquo;s special architectural and historic interest.</span>
+              </li>
+              <li>
+                <a href="https://theddaystory.com/markers/fort-henry-exercise-smash-training-area-studland-bay/" target="_blank" rel="noopener noreferrer">The D-Day Story &mdash; Fort Henry, Exercise Smash Training Area</a>
+                <span class="source-desc">History of D-Day rehearsals on Studland Beach.</span>
+              </li>
+              <li>
+                <a href="https://www.nationaltrust.org.uk/visit/dorset/studland-bay/history-of-studland-bay" target="_blank" rel="noopener noreferrer">National Trust &mdash; History of Studland Bay</a>
+                <span class="source-desc">Overview of Studland Bay&rsquo;s history and the Bankes estate bequest.</span>
+              </li>
+              <li>
+                <a href="https://www.british-history.ac.uk/rchme/dorset/vol2/pp276-283" target="_blank" rel="noopener noreferrer">British History Online &mdash; RCHME Dorset, Vol. II, Studland</a>
+                <span class="source-desc">Royal Commission on Historical Monuments inventory entry for Studland parish.</span>
+              </li>
+              <li>
+                <a href="https://historicengland.org.uk/images-books/publications/building-stones-england-dorset/bse-dorset/" target="_blank" rel="noopener noreferrer">Historic England &mdash; Building Stones of England: Dorset</a>
+                <span class="source-desc">Comprehensive guide to Dorset&rsquo;s building stone geology and traditions.</span>
+              </li>
+              <li>
+                <a href="https://www.dorsetbuildingstone.org/chalk.html" target="_blank" rel="noopener noreferrer">Dorset Building Stone &mdash; Chalk</a>
+                <span class="source-desc">Chalk freestone as a traditional building material in Dorset.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-line"></div>
+      <p class="footer-text">Church Cottage, Manor Road, Studland, Dorset, BH19 3AU</p>
+      <p class="footer-meta">Grid Reference: SZ 0374 8260 &middot; NHLE 1323433 &middot; Studland Conservation Area &middot; Dorset National Landscape</p>
+      <p class="footer-credit">Research compiled from Historic England, Dorset Heritage Explorer, Cotswold Archaeology, and Western Design Architects. This site is an independent historical resource and is not affiliated with any of these organisations.</p>
+      <p class="footer-small">&copy; <time datetime="2026">2026</time></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
