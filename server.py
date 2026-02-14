@@ -20,7 +20,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
 
 
 if __name__ == '__main__':
-    with http.server.HTTPServer(('localhost', PORT), Handler) as httpd:
+    with http.server.HTTPServer(('0.0.0.0', PORT), Handler) as httpd:
         print(f'Church Cottage site serving at http://localhost:{PORT}')
         try:
             httpd.serve_forever()
