@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Simple HTTP server for Church Cottage site on localhost:5000"""
+"""Simple HTTP server for Church Cottage site on localhost:4300"""
 import http.server
 import os
 
-PORT = 5000
+PORT = 4300
 DIRECTORY = os.path.dirname(os.path.abspath(__file__))
 
 
